@@ -1,0 +1,197 @@
+@import "null.css";
+
+@import url(https://fonts.googleapis.com/css?family=Comfortaa:regular,700&display=swap);
+@import url(https://fonts.googleapis.com/css?family=Lato:100,100italic,300,300italic,regular,italic,700,700italic,900,900italic);
+
+body {
+    font-family: Comfortaa;
+}
+.wrapper {
+    min-height: 100%;
+    overflow: hidden;
+}
+
+.content_one {
+    background: url("../img/space.webp");
+}
+
+.bg {
+    padding: 20px;
+    background-color: rgba(245, 245, 245, 0.568);
+    max-width: 800px;
+    margin: 0 auto 20px;
+    font-size: 20px;
+    line-height: 2;
+    text-shadow: 2px 2px 2px black;
+    color: rgb(1, 7, 12);
+}
+
+.paragraf {
+    font-weight: bold;
+    border: 2px solid black;
+    box-shadow: 2px 2px 12px 2px black;
+    padding: 10px;
+    background: url("../img/dog.gif") 50px / 50px repeat-x;
+}
+.bg2 {
+    height: 200px;
+    background: url("../img/earth.webp") center / cover no-repeat fixed;
+}
+
+.btn {
+    font-weight: bold;
+    text-align: center;
+    display: block;
+    margin: 0 auto 20px;
+    border: 2px solid rgb(5, 205, 255);
+    border-radius: 15px;
+    background-color: rgba(7, 185, 185, 0.705);
+    padding: 10px 20px;
+    width: 170px;
+    text-transform: uppercase;
+    box-shadow: 2px 2px 22px 10px rgb(83, 152, 241);
+    letter-spacing: 3px;
+    color: rgb(59, 1, 126);
+    font-size: 25px;
+}
+
+.parallax {
+    height: 200px;
+    background: url("../img/parallax.jpg") center / cover no-repeat fixed;
+    margin: 0 0 50px 0;
+}
+
+.wrap-dz {
+    font-family: Lato;
+    max-width: 810px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-weight: 900;
+    font-size: 46px;
+    line-height: 1.3;
+    margin-bottom: 26px;
+}
+
+.sub-titel {
+    margin-bottom: 40px;
+}
+.date {
+    color: #787a80;
+    padding-left: 24px;
+    background: url("../img/Vector\ \(Stroke\).svg") 0 2px no-repeat;
+    line-height: 1.6;
+    margin-right: 24px;
+}
+
+.min {
+    color: #787a80;
+    padding-left: 24px;
+    line-height: 1.6;
+    background: url("../img/Union.svg") 0 2px no-repeat;
+}
+
+.img {
+    margin-bottom: 60px;
+}
+
+.text-one {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 1.5;
+    margin-bottom: 24px;
+}
+
+.text-two p {
+    color: #424551;
+    line-height: 1.6;
+    margin-bottom: 25px;
+}
+
+.text-two p:last-child {
+    margin-bottom: 0;
+}
+
+.text-two {
+    margin-bottom: 48px;
+}
+
+.text-three {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 1.5;
+    padding-left: 58px;
+    background: url("../img/Rect.svg") no-repeat, url("../img/Rect.svg") 18px 0 no-repeat;
+    margin-bottom: 48px;
+}
+
+.text-four {
+    color: #424551;
+    line-height: 1.6;
+    margin-bottom: 24px;
+}
+
+.list-text {
+    color: #424551;
+    line-height: 1.6;
+    padding-left: 30px;
+    background: url("../img/Vector.svg") 0 6px no-repeat;
+    margin-bottom: 4px;
+}
+
+.list-text:last-child {
+    margin-bottom: 0;
+}
+
+.list {
+    margin-bottom: 24px;
+}
+
+.text-five {
+    color: #424551;
+    line-height: 1.6;
+    margin-bottom: 50px;
+}
+
+h3 {
+    font-weight: bold;
+    line-height: 1.6;
+    letter-spacing: 1px;
+    margin-bottom: 8px;
+}
+
+h2 {
+    font-weight: 900;
+    font-size: 46px;
+    line-height: 1.3;
+    margin-bottom: 40px;
+}
+
+.wrapper-list {
+    max-width: 390px;
+    margin-bottom: 48px;
+}
+
+.list-two {
+    color: #424551;
+    line-height: 1.6;
+    padding-left: 32px;
+    background: url("../img/Vector.svg") 0 6px no-repeat;
+    margin-bottom: 12px;
+}
+
+.list-two:last-child {
+    margin-bottom: 0;
+}
+
+.btn-dz {
+    display: inline-block;
+    color: #ffffff;
+    background: linear-gradient(55.95deg, #ff3f3a 0%, #f75e05 100%);
+    padding: 18px 32px;
+    letter-spacing: 0.5px;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 4px;
+}
